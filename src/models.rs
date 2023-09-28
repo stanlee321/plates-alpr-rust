@@ -1,12 +1,16 @@
 use serde::{Deserialize, Serialize};
 
 #[derive(Serialize, Deserialize)]
+#[derive(Debug)]
+
 struct Coordinate {
     x: i32,
     y: i32,
 }
 
 #[derive(Serialize, Deserialize)]
+#[derive(Debug)]
+
 struct Candidate {
     plate: String,
     confidence: f64,
@@ -14,6 +18,8 @@ struct Candidate {
 }
 
 #[derive(Serialize, Deserialize)]
+#[derive(Debug)]
+
 struct BestPlate {
     plate: String,
     confidence: f64,
@@ -31,6 +37,7 @@ struct BestPlate {
 }
 
 #[derive(Serialize, Deserialize)]
+#[derive(Debug)]
 struct VehiclePath {
     x: i32,
     y: i32,
@@ -41,12 +48,16 @@ struct VehiclePath {
 }
 
 #[derive(Serialize, Deserialize)]
+#[derive(Debug)]
+
 struct NamedConfidence {
     name: String,
     confidence: f64,
 }
 
 #[derive(Serialize, Deserialize)]
+#[derive(Debug)]
+
 struct Vehicle {
     color: Vec<NamedConfidence>,
     make: Vec<NamedConfidence>,
@@ -59,6 +70,7 @@ struct Vehicle {
 }
 
 #[derive(Serialize, Deserialize)]
+#[derive(Debug)]
 pub struct MainStruct {
     data_type: String,
     version: i32,
