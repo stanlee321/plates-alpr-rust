@@ -1,0 +1,142 @@
+{
+  "data_type": "alpr_group",
+  "version": 3,
+  "epoch_start": 1634475947845,
+  "epoch_end": 1634475950845,
+  "frame_start": 216,
+  "frame_end": 236,
+  "company_id": "2305d27a-2a29-4864-bf8f-bef5dc9330ef",
+  "agent_uid": "TESTTESTTESTTESTTESTTESTTESTTESTTESTTEST",
+  "agent_version": "4.1.1",
+  "agent_type": "alprd",
+  "camera_id": 1000,
+  "gps_latitude": 39.6505,
+  "gps_longitude": -78.7661,
+  "country": "us",
+  "uuids": [
+    "63PHH1MHEXF9U245NFI66RGPUXTQEREKAJI7K44Y-177622-1627675927504",
+    "63PHH1MHEXF9U245NFI66RGPUXTQEREKAJI7K44Y-177622-1627675927553",
+    "63PHH1MHEXF9U245NFI66RGPUXTQEREKAJI7K44Y-177622-1627675927709"
+  ],
+  "vehicle_path": [
+    { "x": 204, "y": 130, "w": 739, "h": 454, "t": -48, "f": -1 },
+    { "x": 192, "y": 117, "w": 706, "h": 442, "t": 49, "f": 0 },
+    { "x": 222, "y": 83, "w": 588, "h": 422, "t": 205, "f": 4 }
+  ],
+  "plate_indexes": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+  "candidates": [
+    { "plate": "19462SH", "confidence": 93.25465393, "matches_template": 1 }
+  ],
+  "best_plate": {
+    "plate": "19462SH",
+    "confidence": 93.25465393,
+    "matches_template": 1,
+    "plate_index": 0,
+    "region": "us-ma",
+    "region_confidence": 98,
+    "processing_time_ms": 5.85926723,
+    "requested_topn": 10,
+    "coordinates": [
+      { "x": 601, "y": 294 },
+      { "x": 656, "y": 284 },
+      { "x": 659, "y": 313 },
+      { "x": 605, "y": 325 }
+    ],
+    "plate_crop_jpeg": "XXXXXXASASA",
+    "vehicle_region": { "x": 222, "y": 74, "width": 522, "height": 386 },
+    "vehicle_detected": true,
+    "candidates": [
+      { "plate": "19462SH", "confidence": 93.25465393, "matches_template": 1 }
+    ]
+  },
+  "best_confidence": 93.25465393,
+  "best_plate_number": "19462SH",
+  "best_region": "us-ma",
+  "best_region_confidence": 84.06666565,
+  "matches_template": true,
+  "plate_path": [
+    { "x": 796, "y": 368, "w": 54, "h": 11, "t": 0, "f": 0 },
+    { "x": 775, "y": 353, "w": 49, "h": 21, "t": 49, "f": 1 },
+    { "x": 672, "y": 324, "w": 56, "h": 14, "t": 205, "f": 4 },
+    { "x": 658, "y": 314, "w": 53, "h": 16, "t": 254, "f": 5 },
+    { "x": 617, "y": 300, "w": 61, "h": 19, "t": 303, "f": 6 },
+    { "x": 601, "y": 294, "w": 58, "h": 19, "t": 351, "f": 7 },
+    { "x": 569, "y": 278, "w": 59, "h": 20, "t": 400, "f": 8 },
+    { "x": 552, "y": 271, "w": 63, "h": 21, "t": 448, "f": 9 },
+    { "x": 528, "y": 258, "w": 59, "h": 24, "t": 497, "f": 10 },
+    { "x": 515, "y": 253, "w": 58, "h": 20, "t": 557, "f": 11 },
+    { "x": 493, "y": 240, "w": 58, "h": 20, "t": 605, "f": 12 },
+    { "x": 480, "y": 234, "w": 60, "h": 22, "t": 653, "f": 13 },
+    { "x": 459, "y": 220, "w": 59, "h": 23, "t": 702, "f": 14 },
+    { "x": 454, "y": 215, "w": 55, "h": 23, "t": 751, "f": 15 },
+    { "x": 438, "y": 205, "w": 56, "h": 22, "t": 800, "f": 16 },
+    { "x": 419, "y": 189, "w": 50, "h": 21, "t": 898, "f": 18 },
+    { "x": 409, "y": 185, "w": 57, "h": 21, "t": 957, "f": 19 },
+    { "x": 400, "y": 173, "w": 51, "h": 22, "t": 1006, "f": 20 }
+  ],
+  "vehicle_crop_jpeg": "AAAAAAAAAA",
+  "overview_jpeg": "XXXXXX",
+  "best_uuid": "63PHH1MHEXF9U245NFI66RGPUXTQEREKAJI7K44Y-177622-1627675927855",
+  "best_uuid_epoch_ms": 1627675927855,
+  "best_image_width": 1280,
+  "best_image_height": 720,
+  "travel_direction": 296.55792236,
+  "is_parked": false,
+  "is_preview": false,
+  "vehicle_signature": "1h",
+  "vehicle": {
+    "color": [
+      { "name": "white", "confidence": 99.14266968 },
+      { "name": "red", "confidence": 0.24653569 },
+      { "name": "blue", "confidence": 0.24622858 },
+      { "name": "silver-gray", "confidence": 0.22443284 },
+      { "name": "black", "confidence": 0.0531255 }
+    ],
+    "make": [
+      { "name": "bmw", "confidence": 99.99908447 },
+      { "name": "honda", "confidence": 0.00026897 },
+      { "name": "ford", "confidence": 0.00019697 },
+      { "name": "dodge", "confidence": 9.654e-5 },
+      { "name": "nissan", "confidence": 8.901e-5 }
+    ],
+    "make_model": [
+      { "name": "bmw_x3", "confidence": 99.60665131 },
+      { "name": "bmw_x4", "confidence": 0.35377735 },
+      { "name": "bmw_x5", "confidence": 0.01494939 },
+      { "name": "bmw_x1", "confidence": 0.0146531 },
+      { "name": "bmw_x6", "confidence": 0.00233917 }
+    ],
+    "body_type": [
+      { "name": "suv-crossover", "confidence": 99.89404297 },
+      { "name": "suv-standard", "confidence": 0.05758071 },
+      { "name": "sedan-compact", "confidence": 0.01957944 },
+      { "name": "sedan-standard", "confidence": 0.01390838 },
+      { "name": "motorcycle", "confidence": 0.00853274 }
+    ],
+    "year": [
+      { "name": "2010-2014", "confidence": 90.33842468 },
+      { "name": "2015-2019", "confidence": 9.55992126 },
+      { "name": "2005-2009", "confidence": 0.09393937 },
+      { "name": "2000-2004", "confidence": 0.00370357 },
+      { "name": "1990-1994", "confidence": 0.00198262 }
+    ],
+    "orientation": [
+      { "name": "225", "confidence": 99.82516479 },
+      { "name": "180", "confidence": 0.12798761 },
+      { "name": "135", "confidence": 0.01702297 },
+      { "name": "45", "confidence": 0.01119112 },
+      { "name": "0", "confidence": 0.00814719 }
+    ],
+    "missing_plate": [
+      { "name": "no", "confidence": 99.99997711 },
+      { "name": "yes", "confidence": 2.248e-5 }
+    ],
+    "is_vehicle": [
+      { "name": "yes", "confidence": 99.99925232 },
+      { "name": "no", "confidence": 0.000748 }
+    ]
+  },
+  "web_server_config": { "camera_label": "unnamed", "agent_label": "unnamed" },
+  "direction_of_travel_id": -1,
+  "custom_data": ""
+}
